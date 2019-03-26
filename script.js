@@ -7,7 +7,7 @@ function loadPosts() {
 		.then((myJson) => {
 			const cards = myJson.map(index => {
 				return `
-  <div class="card">
+  <div class="card my-3">
   <div class="card-body">
     <h5 class="card-title">${index.name}</h5>
     <p class="card-text">${index.description}</p>
